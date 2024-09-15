@@ -1,8 +1,11 @@
-<div css={background: red; font-size: 32px}>
-  <img src="./test.png" />
-	<button js={fn(onClick), {
-    print("Hello world!")
-  }}>
-		test
-	</button>
-</div>
+title: Document
+
+script: 
+    function printHelloWorld() {
+        console.log('Hello World');
+    }
+
+div: 
+    style: bg="#f00"; size="32"
+    img: ./test.png
+    button: Print hello world @ {console.log('Hello World')}
