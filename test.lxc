@@ -1,0 +1,8 @@
+<div css={background: red; font-size: 32px}>
+  <img src="./test.png" />
+	<button js={fn(onClick), {
+    print("Hello world!")
+  }}>
+		test
+	</button>
+</div>
